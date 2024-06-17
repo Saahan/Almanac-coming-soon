@@ -1,0 +1,101 @@
+<ol>
+          <h5 style={{ color: "#1d2d60" }}>
+            <li>Market Segmentation</li>
+          </h5>
+          <ul style={{ marginBottom: "20px" }}>
+            <li>
+              Retail: Tailored solutions for retail businesses to optimize
+              operations and enhance customer engagement.
+            </li>
+            <li>
+              Wholesale: Comprehensive data services that streamline supply
+              chain management and improve market reach.
+            </li>
+            <li>
+              Direct-to-Consumer (D2C): Innovative strategies and tools to help
+              D2C brands connect directly with their customers and scale
+              efficiently.
+            </li>
+            <li>
+              Service Sector: Increasing the outreach of the Service based
+              businesses as well as at the same time bringing more options of
+              service providers of all sorts to the end user.
+            </li>
+          </ul>
+
+          <h5 style={{ color: "#1d2d60" }}>
+            <li>Hand-Held Experience</li>
+          </h5>
+          <ul style={{ marginBottom: "20px" }}>
+            <li>
+              Personalized support and guidance for businesses at every stage of
+              their journey.
+            </li>
+            <li>
+              Expert advice and resources to help navigate complex market
+              dynamics.
+            </li>
+            <li>
+              Dedicated account managers to ensure businesses get the most out
+              of our services.
+            </li>
+          </ul>
+
+          <h5 style={{ color: "#1d2d60" }}>
+            <li>Economic Mobilization</li>
+          </h5>
+          <ul style={{ marginBottom: "20px" }}>
+            <li>Initiatives that drive local and national economic growth.</li>
+            <li>
+              Programs and tools designed to foster business development and
+              sustainability.
+            </li>
+            <li>
+              Partnerships with industry leaders to create a more dynamic and
+              resilient marketplace.
+            </li>
+          </ul>
+        </ol>
+
+
+Old Styles: 
+
+.logo-div {
+  margin-top: 10%;
+  margin-left: 30%;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-img {
+    margin-top: 200px;
+    margin-right: 25%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  .logo-div {
+    margin-top: 30%;
+    margin-left: 15%;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .logo-div {
+    margin-top: 25%;
+    margin-left: 20%;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .logo-div {
+    margin-top: 10%;
+    margin-left: 25%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .logo-div {
+    margin-top: 10%;
+    margin-left: 30%;
+  }
+}
