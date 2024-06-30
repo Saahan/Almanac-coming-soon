@@ -62,7 +62,7 @@ function App() {
         </h3>
         <Container className="d-flex flex-column justify-content-center align-items-center">
           <Row>
-            <Col>
+            <Col lg="4" md="6" sm="12">
               {" "}
               <FeatureCard
                 title={"Flexible Market Solutions"}
@@ -71,7 +71,7 @@ function App() {
                 }
               />
             </Col>
-            <Col>
+            <Col lg="4" md="6" sm="12">
               <FeatureCard
                 title={"Personalized Experience"}
                 text={
@@ -79,7 +79,7 @@ function App() {
                 }
               />
             </Col>
-            <Col>
+            <Col lg="4" md="6" sm="12">
               <FeatureCard
                 title={"Economic Mobilization"}
                 text={

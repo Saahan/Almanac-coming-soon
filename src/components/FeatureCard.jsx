@@ -5,7 +5,7 @@ export default function FeatureCard(props) {
   return (
     <Card
       style={{
-        width: "18rem",
+        width: "16rem", 
         backgroundColor: "#1d2d60",
         height: "18rem",
         margin: "40px",
