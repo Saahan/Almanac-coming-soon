@@ -3,12 +3,14 @@ import Container from "react-bootstrap/Container";
 import FeatureCard from "./components/FeatureCard";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Image from 'react-bootstrap/Image';
+
 
 function App() {
   return (
     <>
       <Container className="d-flex justify-content-center">
-        <img src="/img/almanac_logo_cropped.jpg" alt="Almanac Logo" />
+        <Image src="/img/almanac_logo_cropped.jpg" alt="Almanac Logo" fluid style={{padding:"20px"}}/>
       </Container>
       <Container
         style={{
